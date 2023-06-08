@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec babel-node index.js",
-    "start": "node index.js"
+    "start": "npx babel-node index.js"
   },
   "author": "",
   "license": "ISC",
@@ -22,7 +21,6 @@
     "@babel/core": "^7.22.5",
     "@babel/node": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
-    "demon": "^0.0.1",
-    "nodemon": "^2.0.22"
+    "demon": "^0.0.1"
   }
 }
