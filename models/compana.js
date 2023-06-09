@@ -13,6 +13,6 @@ const campanaSchema = new mongoose.Schema({
     fechaActualizada: Date
 });
 
-const Crackdown = mongoose.model('Crackdown', campanaSchema);
+const Crackdown = mongoose.model('campana', campanaSchema);
 
 export default Crackdown;

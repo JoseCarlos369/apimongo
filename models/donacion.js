@@ -16,6 +16,6 @@ const donacionSchema = new mongoose.Schema({
     fechaActualizada: Date
 });
 
-const Donation = mongoose.model('Donation', donacionSchema);
+const Donation = mongoose.model('donacion', donacionSchema);
 
 export default Donation;
