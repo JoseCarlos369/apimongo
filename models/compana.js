@@ -1,7 +1,11 @@
 import mongoose from 'mongoose';
 
 const campanaSchema = new mongoose.Schema({
-    _id: Number,
+    _id: {
+        type: mongoose.Schema.Types.ObjectId,
+        auto: true,
+    },
+    id: Number,
     nombre: String,
     requerimiento: String,
     fechaInicio: String,

@@ -1,7 +1,11 @@
 import mongoose from 'mongoose';
 
 const donacionSchema = new mongoose.Schema({
-    _id: Number,
+    _id: {
+        type: mongoose.Schema.Types.ObjectId,
+        auto: true,
+    },
+    id: Number,
     cantidad: Number,
     description: String,
     tipoDonacion: String,
